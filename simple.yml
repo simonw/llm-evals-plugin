@@ -1,0 +1,9 @@
+ev: 0.1
+name: Basic languages
+system: |
+  Return just a single word in the specified language
+prompt: |
+  Apple in Spanish
+checks:
+- iexact: manzana
+- notcontains: apple

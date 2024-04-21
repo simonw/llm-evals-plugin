@@ -1,0 +1,25 @@
+[project]
+name = "llm-evals"
+version = "0.1a0"
+description = "Run evals against prompts using LLM"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/llm-evals"
+Changelog = "https://github.com/simonw/llm-evals/releases"
+Issues = "https://github.com/simonw/llm-evals/issues"
+CI = "https://github.com/simonw/llm-evals/actions"
+
+[project.entry-points.llm]
+evals = "llm_evals"
+
+[project.optional-dependencies]
+test = ["pytest"]
