@@ -1,5 +1,5 @@
 [project]
-name = "llm-evals"
+name = "llm-evals-plugin"
 version = "0.1a0"
 description = "Run evals against prompts using LLM"
 readme = "README.md"
@@ -13,10 +13,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simonw/llm-evals"
-Changelog = "https://github.com/simonw/llm-evals/releases"
-Issues = "https://github.com/simonw/llm-evals/issues"
-CI = "https://github.com/simonw/llm-evals/actions"
+Homepage = "https://github.com/simonw/llm-evals-plugin"
+Changelog = "https://github.com/simonw/llm-evals-plugin/releases"
+Issues = "https://github.com/simonw/llm-evals-plugin/issues"
+CI = "https://github.com/simonw/llm-evals-plugin/actions"
 
 [project.entry-points.llm]
 evals = "llm_evals"
