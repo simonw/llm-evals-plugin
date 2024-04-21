@@ -17,7 +17,7 @@ llm install llm-evals-plugin
 ```
 ## Usage
 
-See [issue 1](https://github.com/simonw/llm-evals-plugin/issues/1).
+See [this issue comment](https://github.com/simonw/llm-evals-plugin/issues/1#issuecomment-2067916371).
 
 ## Development
 
