@@ -1,0 +1,3 @@
+name,inputs,checks
+Increment,"{""before_after"":""after"",""number"":""5885""}","[{""contains"": ""5886""},{""notcontains"":""5885""}]"
+Decrement,"{""before_after"":""before"",""number"":""4283""}","[{""contains"": ""4282""},{""notcontains"":""4283""}]"

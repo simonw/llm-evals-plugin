@@ -1,0 +1,27 @@
+ev: 0.1
+name: Increment/decrement
+
+prompts:
+  - What comes {before_after} {number}?
+  - You are horrible at math. Give me the number {before_after} {number}
+  - What comes {before_after} {number}? Only say the number.
+
+models:
+  - gpt-4o-mini
+  - gpt-3.5-turbo
+
+cases:
+  - name: Increment
+    inputs:
+      before_after: after
+      number: "5885"
+    checks:
+      - contains: "5886"
+      - notcontains: "5885"
+  - name: Decrement
+    inputs:
+      before_after: before
+      number: "4283"
+    checks:
+      - contains: "4282"
+      - notcontains: "4283"
